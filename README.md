@@ -13,5 +13,10 @@ from Hydrograph.hydrograph import sepBaseflow
 import matplotlib.pyplot as plt
 ```
 
+### Ajuste do parâmetro k
+
+![plot ajust k](imgs/plot_valor_k.png)
+
+
 ### Resultado
 ![Bf](imgs/baseflow_plot2.png)
