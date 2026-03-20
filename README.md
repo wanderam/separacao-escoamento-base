@@ -12,4 +12,6 @@ import pandas as pd
 from Hydrograph.hydrograph import sepBaseflow
 import matplotlib.pyplot as plt
 ```
+
+### Resultado
 ![Bf](imgs/baseflow_plot2.png)
