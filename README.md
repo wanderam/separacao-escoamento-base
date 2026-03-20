@@ -4,11 +4,11 @@ Hydrograph-py (função *`sepBaseflow`*)
 Procedimento para separação do escoamento de base, a partir de séries temporais de vazão, utilizando o pacote Python **Hydrograph-py** (Terink 2019). Este pacote permite a separação, de maneira simples, da vazão em escoamento superficial direto e escoamento de base. Além disso, facilita a filtragem e o cálculo dos volumes de pico de vazão, dos volumes máximos de pico de vazão anual, entre outras análises hidrológicas. Aqui, a série de escoamento de base foi estimada a partir de dados observados de vazão da bacia hidrográfica do rio Corumbataí.
 
 ### Ferramentas necessárias
-* Linguagem: Python;
+* Python <img src="imgs/logo_py.png" width=30>;
 * Tecnologia: Hydrograph-py [(Terink 2019)](https://app.readthedocs.org/projects/hydrograph-py/downloads/pdf/latest/);
-* Período de dados: 1/1/1985 a 31/12/2019
+* Série de vazão longa o suficiente
 
-### Bibliotecas necessárias:
+### Bibliotecas necessárias e como importá-las:
 ```python
 import pandas as pd
 from Hydrograph.hydrograph import sepBaseflow
